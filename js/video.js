@@ -3,6 +3,9 @@
 var myvideo = document.getElementById("videoplayer");
 myvideo.autoplay=false;
 myvideo.loop=false;
+
+// set initial value
+document.getElementById("volume").innerText = document.getElementById("slider").value.toString()+"%";
 // load video 
 myvideo.load();
 
